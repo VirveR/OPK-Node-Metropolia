@@ -1,0 +1,25 @@
+{
+  "name": "luku4",
+  "version": "1.0.0",
+  "description": "Node.js -kurssin Luku 4 harjoituskoodi",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "OPK-Node-Metropolia"
+  },
+  "keywords": [
+    "opk",
+    "harjoitus",
+    "node.js"
+  ],
+  "author": "Virve Rajasärkkä",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
