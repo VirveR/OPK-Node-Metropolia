@@ -1,5 +1,5 @@
-// Node.js @Metropolia AMK, luku 4
-// Express-sovelluskehyksen käyttöönotto
+// Node.js @Metropolia AMK
+// Luku 4, Express-sovelluskehyksen käyttöönotto
 // Virve Rajasärkkä 2023
 
 //tämä korvaa edellisen version http-moduulin käyttöönoton

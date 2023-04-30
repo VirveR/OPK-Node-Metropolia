@@ -1,5 +1,5 @@
-// Node.js @Metropolia AMK, luku 3
-// Uuden palvelimen luonti
+// Node.js @Metropolia AMK
+// Luku 3, uuden palvelimen luonti
 // Virve Rajasärkkä 2023
 
 //ottaa käyttöön Node.js:n http-moduulin
