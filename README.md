@@ -26,7 +26,7 @@ Luulen kuitenkin osaavani tarvittaessa hakea dokumentaatiosta tietoa.
 
 ### Luku 3: Verkkopalvelimen luonti Node.js:llä
 
-Loin tämän kurssin harjoituskoodeille repositoryn GitHubiin. Tutustuttuani package.json-dokumentaatioon, 
+Loin tämän kurssin harjoituskoodeille repositoryn GitHubiin. Tutustuttuani package.json-dokumentaatioon 
 lisäsin myös siihen tiedostoon lisätietoja. Tein ensimmäisen koodausesimerkin, jossa luodaan ensimmäinen 
 versio palvelimesta.
 
@@ -113,7 +113,11 @@ Tämä harjoitus vaati vähän ajattelemista, joten kirjoitan tähän auki, mit�
 
 ### Luku 10: Mallimoottorit
 
-Jatkan edelleen lego-kansiossa. Asensin sinne Pug-mallimoottorin. Loin sivumalleille 'views'-kansion ja sitten lähtikin mopo käsistä. Palaan asiaan huomenna.
+Jatkan edelleen lego-kansiossa. Asensin sinne Pug-mallimoottorin. Loin sivumalleille 'views'-kansion ja niin edelleen, mutta sitten alkoi ajatus 
+Hello World-tyyppisestä jatkosta tuntua tylsältä. Rakentelin sisäänkirjautumissivun Pugilla + oma CSS. Pugilla oli vaikeuksia löytää CSS:ssä määritettyä 
+taustakuvaa, joten päädyin lisäämään projektiin static-määritykset ja public-kansion. Sain sisäänkirjautumisen myös toimimaan (edelleen), mutta tällä hetkellä 
+sen jälkeen ruudulle lävähtää pelkkä token. Jatkan huomenna tutkimuksia (tämän kurssin laajuudesta) eteenpäin, kuinka saatua tokenia pitäisi käsitellä ja 
+ohjaan käyttäjän sisään kirjautuneena edelleen. Alan päästä kärryille tästä hommasta.
 
 
 
