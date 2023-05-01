@@ -100,7 +100,7 @@ päätepisteisiin todentamisen. Testasin toiminnot Postmanilla ja kaikki toimii.
 
 Tämä harjoitus vaati vähän ajattelemista, joten kirjoitan tähän auki, mitä koodissa tapahtuu.
 
-1. Käyttäjä kirjautuu sisään. Palvelin kutsuu authenticaten kirjaamistoimintoa.
+1. käyttäjä kirjautuu sisään: palvelin kutsuu authenticaten kirjaamistoimintoa
 2. 'kirjaa' saa pyynnön body-osasta käyttäjän antamat spostin ja selkokielisen salasanan
 3. 'kirjaa' kutsuu kayttajat-tiedoston toimintoa, joka hakee käyttäjän hashatun salasanan tietokannasta spostin perusteella
 4. jwt:lle laitetaan sposti ja aloitussivulla ympäristömuuttujaan laitettu supersalainen sala-avain, takaisin saadaan token
