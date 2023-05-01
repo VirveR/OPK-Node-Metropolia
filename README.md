@@ -9,7 +9,7 @@ Oppimispäiväkirja kurssista Node.js (3 op), Metropolia AMK
 - [x] Luku 6: Tietokannan [postgreSQL] käyttö Node.js-sovelluksissa, koodit kansiossa lego
 - [x] Luku 7: MongoDB-tietokannan käyttö Node.js-sovelluksissa, koodit kansiossa luku7
 - [x] Luku 8: Testaus, koodit kansiossa lego
-- [ ] Luku 9: REST APIn suojaus, koodit kansiossa lego
+- [x] Luku 9: REST APIn suojaus, koodit kansiossa lego
 - [ ] Luku 10: Mallimoottorit, koodit kansiossa lego
 - [ ] Luku 11: Julkaisu, koodit?
 
@@ -86,11 +86,32 @@ Tuhosin tähän harjoitukseen liittyvät tietokannat ja projektin MongoDB:ssa, j
 
 ### Luku 8: Testaus
 
-Jatkoin tässä tätä harjoitusta lego-kansiossa. Asensin Mocha-testausviitekehyksen ja chai-väitekirjaston. Loin uuden kansion testitiedostoille ja uuden testitiedoston 'osat'-tauluun kohdistuville kyselyille. Lisäsin testifunktiot, ja testit menee läpi.
+Jatkoin tässä tätä harjoitusta lego-kansiossa. Asensin Mocha-testausviitekehyksen ja chai-väitekirjaston. Loin uuden kansion testitiedostoille ja 
+uuden testitiedoston 'osat'-tauluun kohdistuville kyselyille. Lisäsin testifunktiot, ja testit menee läpi.
 
 Chai-väitteet oli varsin hauskoja ja ihmisystävällisiä. Hauska toiminto.
 
 ### Luku 9: REST APIn suojaus
+
+JsonWebToken luo ja tarkistaa kirjautumistunnuksia ja bcryptillä salataan salasanoja. Asensin nämä lego-kansioon. Lisäsin käyttäjille taulun pg-tietokantaan 
+ja tauluun testikäyttäjän. Loin db-kansioon tiedoston 'kayttajat'-tauluun kohdistuville kyselyille. Loin uuden kansion 'services' ja sinne tiedoston 
+'authenticate'. Lisäsin tiedostoon funktiot sisäänkirjautumiselle ja käyttäjän todentamiselle. Lisäsin REST-päätepisteen kirjautumiselle ja lisäsin muihin
+päätepisteisiin todentamisen. Testasin toiminnot Postmanilla ja kaikki toimii.
+
+Tämä harjoitus vaati vähän ajattelemista, joten kirjoitan tähän auki, mitä koodissa tapahtuu.
+
+1. Käyttäjä kirjautuu sisään. Palvelin kutsuu authenticaten kirjaamistoimintoa.
+2. 'kirjaa' saa pyynnön body-osasta käyttäjän antamat spostin ja selkokielisen salasanan
+3. 'kirjaa' kutsuu kayttajat-tiedoston toimintoa, joka hakee käyttäjän hashatun salasanan tietokannasta spostin perusteella
+4. jwt:lle laitetaan sposti ja aloitussivulla ympäristömuuttujaan laitettu supersalainen sala-avain, takaisin saadaan token
+5. bcrypt vertaa käyttäjän antamaa selkokielistä salasanaa tietokannan hashattuun salasanaan
+6. jos salasanat täsmää, 'kirjaa' lähettää vastauksessa tokenin
+7. token otetaan jemmaan (tässä harjoituksessa ihan vaan leikepöydälle)
+8. kun sisäänkirjautunut käyttäjä nyt lähettää pyyntöjä muihin päätepisteisiin, pyynnöt menevät ensin authenticate-tiedoston 'todenna'-toiminnolle
+9. 'todenna' kutsuu jwt:n verify-toimintoa ja lähettää sille tokenin sekä supersalaisen sala-avaimen
+10. jos jwt:n todennus onnistuu, suoritetaan seuraava toiminto eli edetään sille päätepisteelle, mihin käyttäjä oli menossa
+
+### Luku 10: Mallimoottorit
 
 
 
