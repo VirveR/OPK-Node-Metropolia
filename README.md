@@ -58,7 +58,7 @@ Loin taas uuden palvelimen. Seuraavissa luvuissa lisään uudet asiat mahdollisu
 ja muotoilin tiedostorakenteen niin, että tietokantakyselyt on omassa tiedostossaan db-kansiossa ja niitä kutsutaan aloitustiedoston 
 REST-päätepistetoiminnoista. Kaikki toimii ja muutokset näkyvät niin sivulla kuin tietokannassakin.
 
-Parametrisoidut kyselyt olikin tuttuja PHP:n pdo-kyselyistä.
+Parametrisoidut kyselyt olikin tuttuja PHP:n puolelta.
 
 (Loppupäiväksi eksyin side questille rakentamaan blogisivustoa palvelimineen [tämän tutoriaalin](https://dev.to/themodernweb/fullstack-how-to-create-a-working-blogging-website-with-pure-html-css-and-js-in-2021-9di) mukaan sekä tutustumaan [Firebase](https://firebase.google.com/)-palveluun.)
 
