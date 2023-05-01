@@ -1,5 +1,6 @@
 // Node.js @Metropolia AMK
 // Luku 6, Tietokannan käyttö Node.js-sovelluksissa
+// Luku 7, Testaus
 // Osat-tauluun kohdistuvat kyselyt
 // Virve Rajasärkkä 2023
 
@@ -88,10 +89,20 @@ const muokkaaOsa = (req, res) => {
     res.json(udOsa);
 }
 
+// poista kaikki osat
+const poistaKaikkiOsat = () => {
+    db.query('DELETE FROM osat', (err, result) => {
+        if (err) {
+            return console.error(virhe, err.stack);
+        }
+    });
+}
+
 module.exports = {
     haeOsat: haeOsat,
     haeOsanro: haeOsanro,
     lisaaOsa: lisaaOsa,
     poistaOsa: poistaOsa,
-    muokkaaOsa: muokkaaOsa
+    muokkaaOsa: muokkaaOsa,
+    poistaKaikkiOsat: poistaKaikkiOsat
 }
