@@ -1,5 +1,9 @@
-# OPK-Node-Metropolia
-Oppimispäiväkirja kurssista Node.js (3 op), Metropolia AMK
+# Oppimispäiväkirja kurssista Node.js (3 op), Metropolia AMK
+
+Omassa tutkinnossa vapaavalintaisiin opintoihin, koska en malttanut odottaa, että Backend Web Development -profiloiva moduuli tulee vastaan opetussuunnitelmassa.
+
+Alku on vähän kuivaa luettavaa, mutta loppua kohden käy (toivottavasti) mielenkiintoisemmaksi. Ainakin oma mielenkiintoni on kasvanut sitä mukaa, mitä 
+monimutkaisempiin asioihin on päässyt pureutumaan.
 
 - [x] Luku 1: Johdanto, ei koodia
 - [x] Luku 2: Node.js ja kehitystyökalujen perusteet, ei koodia
