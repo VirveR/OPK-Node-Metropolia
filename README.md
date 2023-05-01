@@ -7,7 +7,7 @@ Oppimispäiväkirja kurssista Node.js (3 op), Metropolia AMK
 - [x] Luku 4: Express-palvelun käyttö, koodit kansiossa luku4
 - [x] Luku 5: REST-sovellusliittymä, koodit kansiossa luku5
 - [x] Luku 6: Tietokannan [postgreSQL] käyttö Node.js-sovelluksissa, koodit kansiossa lego
-- [ ] Luku 7: MongoDB-tietokannan käyttö Node.js-sovelluksissa, koodit kansiossa luku7
+- [x] Luku 7: MongoDB-tietokannan käyttö Node.js-sovelluksissa, koodit kansiossa luku7
 - [ ] Luku 8: Testaus, koodit kansiossa lego
 - [ ] Luku 9: REST APIN suojaus, koodit kansiossa lego
 - [ ] Luku 10: Mallimoottorit, koodit kansiossa lego
@@ -65,6 +65,18 @@ Parametrisoidut kyselyt olikin tuttuja PHP:n puolelta.
 ## 1.5.2023
 
 ### Luku 7: MongoDB-tietokannan käyttö Node.js-sovelluksissa
+
+Olin luonut tilin, käyttäjän ja tietokannan [MongoDB:n Atlas-palveluun](https://www.mongodb.com/atlas/database) jo ensimmäisellä kierroksella. 
+Nyt tein sinne uuden tietokannan 'legopaivakirja', ja sinne taulun 'osat'. Loin 
+uuden kansion ja uuden palvelimen. Asensin mongoosen. (Ensimmäisellä kierroksella minulla
+tuli ongelmia sen kanssa, että asensin uusimman version mongoosesta, ja siinä olikin useista
+tarvittavista funktioista takaisinkutsufunktioversiot deprecated. Teen tämän harjoituksen nyt 
+samalla versiolla, mitä ohjemateriaalissa käytetään.) Loin uuden kansion malleille ja sinne tiedoston 'osan' mallille. Loin tiedoston reitittimelle ja reiteille. (Totesin, ettei MongoDB tykkää suomesta. 'osat' ei ollut hyvä taulun nimi. Get ei löytänyt 'osia' sieltä, ja uusi 'osa' meni automaattisesti luotuun tauluun 'osas'. Tiedänpähän nyt tämänkin.) Lisäsin pyydetyt reitit ja testasin niiden toiminnan Postmanilla. Kaikki toimii niin kuin pitää.
+
+(Kertasin async/await-syntaksin. 'async' on avainsana, joka kertoo, että funktion sisällä tapahtuu asynkronisia asioita. 'await' on toiminto funktion sisällä, joka keskeyttää funktion suorituksen, kunnes on saanut tarvitsemansa.)
+
+Seuraavaksi poistin mongoosen asennuksen ja asensin sen tilalle uusimman version, ja aloin selvittää, miten muokkaus ja poisto pitäisi
+uusimmassa versiossa hoitaa. Try/catch-rakenteella sain toimimaan.
 
 
 
