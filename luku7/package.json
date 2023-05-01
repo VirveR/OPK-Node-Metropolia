@@ -1,0 +1,28 @@
+{
+  "name": "luku7",
+  "version": "1.0.0",
+  "description": "Node.js -kurssin Luku 7 harjoituskoodit",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "OPK-Node-Metropolia"
+  },
+  "keywords": [
+    "opk",
+    "harjoitus",
+    "node.js",
+    "MongoDB"
+  ],
+  "author": "Virve Rajasärkkä",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0"
+  }
+}
