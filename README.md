@@ -113,6 +113,8 @@ T채m채 harjoitus vaati v채h채n ajattelemista, joten kirjoitan t채h채n auki, mit�
 
 ### Luku 10: Mallimoottorit
 
+Jatkan edelleen lego-kansiossa. Asensin sinne Pug-mallimoottorin. Loin sivumalleille 'views'-kansion ja sitten l채htikin mopo k채sist채. Palaan asiaan huomenna.
+
 
 
 
