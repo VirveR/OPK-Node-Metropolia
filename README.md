@@ -46,8 +46,8 @@ Loin uuden kansion ja uuden palvelimen. Asensin Expressin ja body-parserin. Loin
 DELETE- ja PUT-toiminnot ja testasin ne onnistuneesti Postmanin avulla.
 
 JavaScriptin syntaksista ’spread’ ja ’splice’ olivat minulle ei uusia, mutta tuoreempia tuttavuuksia. 
-Tsekkasin niiden dokumentaation. (splicen parametrit: aloitusindeksi, montako korvataan, korvaavat alkiot; palauttaa poistetut alkiot; 
-toSpliced tekee saman, mutta säilyttää alkuperäisen taulukon ja palauttaa uuden)
+Tsekkasin niiden dokumentaation (splicen parametrit: aloitusindeksi, montako korvataan, korvaavat alkiot; palauttaa poistetut alkiot; 
+toSpliced tekee saman, mutta säilyttää alkuperäisen taulukon ja palauttaa uuden).
 
 ## 30.4.2023
 
