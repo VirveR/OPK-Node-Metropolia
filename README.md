@@ -82,6 +82,8 @@ sisällä, joka keskeyttää funktion suorituksen, kunnes on saanut tarvitsemans
 Seuraavaksi poistin mongoosen asennuksen ja asensin sen tilalle uusimman version, ja aloin selvittää, miten muokkaus ja poisto pitäisi
 uusimmassa versiossa hoitaa. Try/catch-rakenteella sain toimimaan.
 
+Tuhosin tähän harjoitukseen liittyvät tietokannat ja projektin MongoDB:ssa, joten tietokantayhteydet ei tee mitään.
+
 ### Luku 8: Testaus
 
 
