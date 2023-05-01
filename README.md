@@ -8,8 +8,8 @@ Oppimispäiväkirja kurssista Node.js (3 op), Metropolia AMK
 - [x] Luku 5: REST-sovellusliittymä, koodit kansiossa luku5
 - [x] Luku 6: Tietokannan [postgreSQL] käyttö Node.js-sovelluksissa, koodit kansiossa lego
 - [x] Luku 7: MongoDB-tietokannan käyttö Node.js-sovelluksissa, koodit kansiossa luku7
-- [ ] Luku 8: Testaus, koodit kansiossa lego
-- [ ] Luku 9: REST APIN suojaus, koodit kansiossa lego
+- [x] Luku 8: Testaus, koodit kansiossa lego
+- [ ] Luku 9: REST APIn suojaus, koodit kansiossa lego
 - [ ] Luku 10: Mallimoottorit, koodit kansiossa lego
 - [ ] Luku 11: Julkaisu, koodit?
 
@@ -85,6 +85,12 @@ uusimmassa versiossa hoitaa. Try/catch-rakenteella sain toimimaan.
 Tuhosin tähän harjoitukseen liittyvät tietokannat ja projektin MongoDB:ssa, joten tietokantayhteydet ei tee mitään.
 
 ### Luku 8: Testaus
+
+Jatkoin tässä tätä harjoitusta lego-kansiossa. Asensin Mocha-testausviitekehyksen ja chai-väitekirjaston. Loin uuden kansion testitiedostoille ja uuden testitiedoston 'osat'-tauluun kohdistuville kyselyille. Lisäsin testifunktiot, ja testit menee läpi.
+
+Chai-väitteet oli varsin hauskoja ja ihmisystävällisiä. Hauska toiminto.
+
+### Luku 9: REST APIn suojaus
 
 
 
