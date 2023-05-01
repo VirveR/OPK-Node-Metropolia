@@ -1,6 +1,5 @@
 // Node.js @Metropolia AMK
 // Luku 6, Tietokannan käyttö Node.js-sovelluksissa
-// Luku 7, Testaus
 // Tietokantayhteyden asetukset määrittelevä sivu
 // Virve Rajasärkkä 2023
 

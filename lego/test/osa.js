@@ -1,6 +1,5 @@
 // Node.js @Metropolia AMK
-// Luku 6, Tietokannan käyttö Node.js-sovelluksissa
-// Luku 7, Testaus
+// Luku 8, Testaus
 // Osat-tauluun kohdistuvien kyselyjen testitoiminnot
 // Virve Rajasärkkä 2023
 
