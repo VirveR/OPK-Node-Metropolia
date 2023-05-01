@@ -53,7 +53,7 @@ toSpliced tekee saman, mutta säilyttää alkuperäisen taulukon ja palauttaa uu
 
 ### Luku 6: Tietokannan käyttö Node.js-sovelluksissa
 
-Loin PostgreSQL:ään uuden tietokannan Legoja varten ja Git-repositoryyn uuden kansion. Asensin Expressin, body-parserin ja pg:n. 
+Loin PostgreSQL:ään uuden tietokannan Legoja varten ja uuden kansion. Asensin Expressin, body-parserin ja pg:n. 
 Loin taas uuden palvelimen. Seuraavissa luvuissa lisään uudet asiat mahdollisuuksien mukaan tähän. Lisäsin tietokannan konfiguraatiotiedoston 
 ja muotoilin tiedostorakenteen niin, että tietokantakyselyt on omassa tiedostossaan db-kansiossa ja niitä kutsutaan aloitustiedoston 
 REST-päätepistetoiminnoista. Kaikki toimii ja muutokset näkyvät niin sivulla kuin tietokannassakin.
