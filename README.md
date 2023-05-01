@@ -17,7 +17,7 @@ Oppimispäiväkirja kurssista Node.js (3 op), Metropolia AMK
 
 Kävin läpi opetusmateriaalin sekä tein esimerkit ja tehtävät. Seuraavaksi käyn luvut läpi tarkemmin ja 
 rakennan niiden mukaan omaa Lego-aiheista sovellustani. Tutustun tarkemmin asioihin, joista jäi ensimmäisen 
-kierroksen jälkeen epäselvyyttä.
+kierroksen jälkeen epävarmuutta.
 
 ### Luku 2: Node.js ja kehitystyökalujen perusteet
 
