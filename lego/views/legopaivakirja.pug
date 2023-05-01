@@ -1,0 +1,17 @@
+doctype html 
+html 
+    head 
+        title Kirjaudu sisään 
+        link(rel='stylesheet' href='css/tyylit.css')
+    body 
+        div(class='kirjaudu')
+            h1 Tervetuloa!
+            form(action='/kirjaudu' method='POST' class='kirjautumislomake')
+                div(class='lomakerivi')
+                    label sähköposti
+                    input(type='text' name='sposti')
+                div(class='lomakerivi')
+                    label salasana 
+                    input(type='password' name='salasana')
+                div(class='lomakerivi') 
+                    input(type='submit', value='Kirjaudu' class="btn")
