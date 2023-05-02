@@ -117,15 +117,16 @@ Tämä harjoitus vaati vähän ajattelemista, joten kirjoitan tähän auki, mit�
 
 ### Luku 10: Mallimoottorit
 
-Jatkan edelleen lego-kansiossa. Asensin sinne Pug-mallimoottorin. Loin sivumalleille 'views'-kansion ja niin edelleen, mutta sitten alkoi ajatus 
+Jatkan edelleen lego-kansiossa. Asensin sinne Pug-mallimoottorin. Loin sivumalleille 'views'-kansion ja... niin... edelleen..., mutta sitten alkoi ajatus 
 Hello World-tyyppisestä jatkosta tuntua tylsältä. Rakentelin sisäänkirjautumissivun Pugilla + oma CSS. Pugilla oli vaikeuksia löytää CSS:ssä määritettyä 
-taustakuvaa, joten päädyin lisäämään projektiin static-määritykset ja public-kansion. Sain sisäänkirjautumisen myös toimimaan (edelleen), mutta tällä hetkellä 
-sen jälkeen ruudulle lävähtää pelkkä token. Jatkan huomenna tutkimuksia (tämän kurssin laajuudesta) eteenpäin, kuinka saatua tokenia pitäisi käsitellä ja 
-ohjaan käyttäjän sisään kirjautuneena edelleen. Alan päästä kärryille tästä hommasta.
+taustakuvaa, joten päädyin lisäämään projektiin static-määritykset ja public-kansion. Sain sisäänkirjautumisen myös toimimaan html-lomakkeen kautta, mutta 
+tällä hetkellä sen jälkeen ruudulle lävähtää pelkkä token. Jatkan huomenna tutkimuksia (tämän kurssin laajuudesta) eteenpäin, kuinka saatua tokenia pitäisi
+käsitellä ja ohjaan käyttäjän sisään kirjautuneena edelleen. Alan päästä kärryille tästä hommasta.
 
 ## 2.5.2023
 
-Lopetan oppimispäiväkirjan tähän. Projekti jatkuu seuraavassa repositoryssä.
+Lopetan oppimispäiväkirjan tähän. Projekti jatkuu [seuraavassa repositoryssä](https://github.com/VirveR/NodeJS-Pug-projekti). Laitan tänne vielä täpän
+Luvun 11 kohdalle, jahka se on julkaistu (todennäköisesti Firebasessa).
 
 
 
