@@ -14,8 +14,8 @@ mukaa, mitä monimutkaisempiin asioihin on päässyt pureutumaan.
 - [x] Luku 7: MongoDB-tietokannan käyttö Node.js-sovelluksissa, koodit kansiossa luku7
 - [x] Luku 8: Testaus, koodit kansiossa lego
 - [x] Luku 9: REST APIn suojaus, koodit kansiossa lego
-- [ ] Luku 10: Mallimoottorit, koodit kansiossa lego
-- [ ] Luku 11: Julkaisu, koodit?
+- [x] Luku 10: Mallimoottorit, koodit kansiossa lego
+- [ ] Luku 11: Julkaisu, ei koodia
 
 ## 27.-29.4.2023
 
@@ -122,6 +122,10 @@ Hello World-tyyppisestä jatkosta tuntua tylsältä. Rakentelin sisäänkirjautu
 taustakuvaa, joten päädyin lisäämään projektiin static-määritykset ja public-kansion. Sain sisäänkirjautumisen myös toimimaan (edelleen), mutta tällä hetkellä 
 sen jälkeen ruudulle lävähtää pelkkä token. Jatkan huomenna tutkimuksia (tämän kurssin laajuudesta) eteenpäin, kuinka saatua tokenia pitäisi käsitellä ja 
 ohjaan käyttäjän sisään kirjautuneena edelleen. Alan päästä kärryille tästä hommasta.
+
+## 2.5.2023
+
+Lopetan oppimispäiväkirjan tähän. Projekti jatkuu seuraavassa repositoryssä.
 
 
 
