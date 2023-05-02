@@ -125,7 +125,7 @@ käsitellä ja ohjaan käyttäjän sisään kirjautuneena edelleen. Alan pääst
 
 ## 2.5.2023
 
-Lopetan oppimispäiväkirjan tähän. Projekti jatkuu [seuraavassa repositoryssä](https://github.com/VirveR/NodeJS-Pug-projekti). Laitan tänne vielä täpän
+Lopetan oppimispäiväkirjan tähän. Projekti jatkuu [seuraavassa repositoryssä](https://github.com/VirveR/NodeJS-Pug-projekti) . Laitan tänne vielä täpän
 Luvun 11 kohdalle, jahka se on julkaistu (todennäköisesti Firebasessa).
 
 
