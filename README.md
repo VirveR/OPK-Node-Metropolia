@@ -128,6 +128,8 @@ käsitellä ja ohjaan käyttäjän sisään kirjautuneena edelleen. Alan pääst
 Lopetan oppimispäiväkirjan tähän. Projekti jatkuu [seuraavassa repositoryssä](https://github.com/VirveR/NodeJS-Pug-projekti) . Laitan tänne vielä täpän
 Luvun 11 kohdalle, jahka se on julkaistu (todennäköisesti Firebasessa).
 
+PS. Etsin töitä sovelluskehityksen parissa. CV:ni voi tsekata [täältä](/https://virver.github.io/) . Myös lisää oppimispäiväkirjoja ja muita projekteja 
+tulossa kesän mittaan.
 
 
 
