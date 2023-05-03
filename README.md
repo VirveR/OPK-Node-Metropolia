@@ -3,17 +3,17 @@
 Alku tästä päiväkirjasta on vähän kuivaa luettavaa, mutta loppua kohden käy (toivottavasti) mielenkiintoisemmaksi. Ainakin oma mielenkiintoni on kasvanut sitä 
 mukaa, mitä monimutkaisempiin asioihin on päässyt pureutumaan.
 
-- [x] Luku 1: Johdanto, ei koodia
-- [x] Luku 2: Node.js ja kehitystyökalujen perusteet, ei koodia
-- [x] Luku 3: Verkkopalvelimen luonti Node.js:llä, koodit kansiossa luku3
-- [x] Luku 4: Express-palvelun käyttö, koodit kansiossa luku4
-- [x] Luku 5: REST-sovellusliittymä, koodit kansiossa luku5
-- [x] Luku 6: Tietokannan käyttö Node.js-sovelluksissa, koodit kansiossa lego
-- [x] Luku 7: MongoDB-tietokannan käyttö Node.js-sovelluksissa, koodit kansiossa luku7
-- [x] Luku 8: Testaus, koodit kansiossa lego
-- [x] Luku 9: REST APIn suojaus, koodit kansiossa lego
-- [x] Luku 10: Mallimoottorit, koodit kansiossa lego
-- [ ] Luku 11: Julkaisu, ei koodia
+- [x] Luku 1: Johdanto, <sup>ei koodia</sup>
+- [x] Luku 2: Node.js ja kehitystyökalujen perusteet <sup>ei koodia</sup>
+- [x] Luku 3: Verkkopalvelimen luonti Node.js:llä <sup>koodit kansiossa luku3</sup>
+- [x] Luku 4: Express-palvelun käyttö <sup>koodit kansiossa luku4</sup>
+- [x] Luku 5: REST-sovellusliittymä <sup>koodit kansiossa luku5</sup>
+- [x] Luku 6: Tietokannan käyttö Node.js-sovelluksissa <sup>koodit kansiossa lego</sup>
+- [x] Luku 7: MongoDB-tietokannan käyttö Node.js-sovelluksissa <sup>koodit kansiossa luku7</sup>
+- [x] Luku 8: Testaus <sup>koodit kansiossa lego</sup>
+- [x] Luku 9: REST APIn suojaus <sup>koodit kansiossa lego</sup>
+- [x] Luku 10: Mallimoottorit <sup>koodit kansiossa lego</sup>
+- [ ] Luku 11: Julkaisu <sup>ei koodia</sup>
 
 ## 27.-29.4.2023
 
