@@ -23,14 +23,14 @@ kierroksen jälkeen epävarmuutta.
 
 ### Luku 2: Node.js ja kehitystyökalujen perusteet
 
-Kävin Node.js:n sivustolla https://nodejs.org/en ja kuvitelmat, että ymmärrän asiasta jotain, karisivat. 
-Luulen kuitenkin osaavani tarvittaessa hakea dokumentaatiosta tietoa.
+Kävin lukemassa [Node.js:n](https://nodejs.org/en) dokumentaatiota ja kuvitelmat, että ymmärrän asiasta jotain, karisivat. 
+Luulen kuitenkin osaavani tarvittaessa hakea sieltä tietoa.
 
 ### Luku 3: Verkkopalvelimen luonti Node.js:llä
 
-Loin tämän kurssin harjoituskoodeille repositoryn GitHubiin. Tutustuttuani package.json-dokumentaatioon 
-lisäsin myös siihen tiedostoon lisätietoja. Tein ensimmäisen koodausesimerkin, jossa luodaan ensimmäinen 
-versio palvelimesta.
+Loin tämän kurssin harjoituskoodeille repositoryn GitHubiin. (lis. Aloitin tämän päiväkirjan kirjoittamista Wordillä, mutta pari lukua kirjoitettuani 
+päätin siirtää sen tänne.) Tutustuttuani package.json-dokumentaatioon lisäsin myös siihen tiedostoon lisätietoja. Tein ensimmäisen koodausesimerkin, 
+jossa luodaan ensimmäinen versio palvelimesta.
 
 ### Luku 4: Express-palvelun käyttö
 
