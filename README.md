@@ -1,6 +1,4 @@
-# Oppimispäiväkirja - Node.js (3 op), Metropolia AMK
-
-Omassa tutkinnossa vapaavalintaisiin opintoihin, koska en malttanut odottaa, että Backend Web Development -profiloiva moduuli tulee vastaan opetussuunnitelmassa.
+# Oppimispäiväkirja: Node.js (3 op), Metropolia AMK
 
 Alku tästä päiväkirjasta on vähän kuivaa luettavaa, mutta loppua kohden käy (toivottavasti) mielenkiintoisemmaksi. Ainakin oma mielenkiintoni on kasvanut sitä 
 mukaa, mitä monimutkaisempiin asioihin on päässyt pureutumaan.
