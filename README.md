@@ -8,7 +8,7 @@ mukaa, mitä monimutkaisempiin asioihin on päässyt pureutumaan.
 - [x] Luku 3: Verkkopalvelimen luonti Node.js:llä, koodit kansiossa luku3
 - [x] Luku 4: Express-palvelun käyttö, koodit kansiossa luku4
 - [x] Luku 5: REST-sovellusliittymä, koodit kansiossa luku5
-- [x] Luku 6: Tietokannan [postgreSQL] käyttö Node.js-sovelluksissa, koodit kansiossa lego
+- [x] Luku 6: Tietokannan käyttö Node.js-sovelluksissa, koodit kansiossa lego
 - [x] Luku 7: MongoDB-tietokannan käyttö Node.js-sovelluksissa, koodit kansiossa luku7
 - [x] Luku 8: Testaus, koodit kansiossa lego
 - [x] Luku 9: REST APIn suojaus, koodit kansiossa lego
